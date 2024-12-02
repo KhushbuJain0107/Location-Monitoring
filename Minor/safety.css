@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+/* Safety Resources */
+
+.safety{
+    padding: 0 60px;
+    font-family:'Poppins',sans-serif;
+    border-bottom: 2px solid #ff4c4c;
+}
+.safety h1{
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px auto;
+    color: #ff4c4c;
+}
+.redcard{
+    background-color: #ff4c4c;
+    color: white;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: fit-content;
+    width: 60%;
+    border-radius: 40px;
+   padding: 30px;
+}
+.redcard:hover{
+    box-shadow: 0 0 2px #ff4c4c , 0 0 4px #ff4c4c;
+}
+.redcards{
+    background-color: #ffffff;
+    color: #ff4c4c;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: fit-content;
+    border-radius: 40px;
+   padding: 30px;
+   width: 60%;
+    position: relative;
+    border: 2px solid #ff4c4c;
+    left: 36%;
+}
+.redcards:hover{
+    box-shadow: 0 0 2px #ff4c4c , 0 0 4px #ff4c4c;
+}
+.safety p{
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+
+    /* Safety Resources */
+
+    .safety{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .safety h1{
+        font-size: 29px;
+        margin: 20px auto;
+    }
+    .safety p{
+        font-size: 12px;
+    }
+    .redcard{
+        padding: 24px;
+        margin-bottom: 20px;
+        width: 83%;
+    }
+    .redcards{
+        left: 0%;
+        padding: 24px;
+        margin-bottom: 20px;
+        width: 83%;
+    }
+}

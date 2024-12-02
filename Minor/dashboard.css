@@ -1,0 +1,144 @@
+.dashboard-container {
+    color: #FF4C4C;
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #FF4C4C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 14%;
+    height: 100%;
+    background-color: #FF4C4C;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.dashboard-info {
+  width: 100%;
+  min-height: calc(70vh - 50px);
+  background-color: #ffebeb;
+  border-top-left-radius: 25px;
+}
+
+.profile-banner {
+  width: 100%;
+  position: relative;
+  height: 120px;
+  background: linear-gradient(to right, #FA9E8C, #FEAE96);
+  border-top-left-radius: 25px;
+}
+
+.user-icon-lg {
+  height: 100px;
+  position: absolute;
+  bottom: -50px;
+}
+
+.dashboard-info-heading {
+  padding-left: 150px;
+}
+
+.dashboard-info-heading h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.dashboard-info-heading p {
+  font-size: 0.9rem;
+}
+
+.dashboard-info-heading-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.save-btn {
+  background-color: #FF4C4C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.dashboard-info-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dashboard-info-item {
+  margin-left: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-info-item input {
+  max-width: 500px;
+}
+
+@media (max-width: 900px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid white;
+    height: 50px;
+    gap: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .dashboard-info {
+    border-top-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom: 2px solid #ff4c4c;
+  }
+
+  .dashboard-info-heading-container {
+    flex-direction: column;
+    margin-top: 56px;
+  }
+.dashboard-info-item{
+  margin: auto;
+}
+  .dashboard-info-heading {
+    padding-left: 0;
+  }
+  .dashboard-info-container{
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .dashboard-info-heading h3 {
+    font-size: 1.2rem;
+  }
+
+  .dashboard-info-heading p {
+    font-size: 0.8rem;
+  }
+
+  .profile-banner {
+    border-top-right-radius: 20px;
+  }
+
+}

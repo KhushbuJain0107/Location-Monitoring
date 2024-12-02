@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    
+    <!-- Navbar and Hamburger-->
+
+     <header>
+        <div class="containers"> 
+           <nav class="navbar links">
+
+              <div class="logo"><img src="./img/logo.png" alt="...loading"></div>
+
+              <ul class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="index.html">Features</a>
+                <a href="order.html">Safety Resources</a>
+                <a href="index.html">Contact Us</a>
+                <a href="sign.html"><button class="secondary-btn">Sign In</button></a>
+                <a href="#"><button class="primary-btn">Alert</button></a>
+              </ul>
+              <div class="hamburger">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+              </div>
+           </nav>
+        </div>
+     </header> 
+
+    <!-- panel -->
+    <div class="panel" id="log">
+        <h2>User Login</h2>
+    </div>
+    
+    <!-- sign in -->
+
+    <section>
+        <div class="sign">
+
+            <div class="sign-img">
+                <img src="./img/safety.png" alt="loading...">
+            </div>
+
+            <div class="sign-main">
+                <div class="sign-logo">
+                    <img src="./img/logo.png" alt="loading...">
+                </div>
+                <div class="container">
+                    <h1>Login</h1>
+                    <form id="loginForm">
+                      <label for=""><b>Email or Mobile Number</b></label>
+                      <input type="text" id="loginIdentifier" placeholder="Email or Mobile Number" required>
+                      <label for=""><b>Password</b></label>
+                      <input type="password" id="loginPassword" placeholder="At least 6 characters" required>
+                      <br>
+                      <div id="signupMessage"></div>
+                      <button type="submit">Login</button>
+                    </form>
+                    <br>
+                    <hr>
+                    <p>Don't have an account? <a href="sign.html">Sign In</a>.</p>
+                    <p>By creating an account, you agree to WomiShield <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="./img/logo.png" alt="">
+            <h5>WomiShield</h5>
+            <p>WomiShield is a dedicated platform for women's safety, empowering users with real-time tools and resources for secure and confident living. Join us in building a safer tomorrow.</p>
+            <div class="media">
+                <img src="./img/instagram.png" alt="loading...">
+                <img src="./img/facebook.png" alt="loading...">
+                <img src="./img/twitter.png" alt="loading...">
+                <img src="./img/linkedin.png" alt="loading...">
+            </div>
+        </div>
+        <div class="footer-links">
+        <div class="footer-link">
+            <p>Quick Navigate </p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="index.html">Features</a>
+            <a href="safety.html">Safety Resources</a>
+            <a href="index.html">Contact Us</a>
+        </div>
+
+        <div class="footer-link">
+            <p>Useful Links</p>
+            <a href="index.html">FAQs</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Emergency Alert</a>
+            <a href="sign.html">SignIn</a>
+        </div>
+
+        <div class="footer-link">
+            <p>Important Terms</p>
+            <a href="#">Safe Zone</a>
+            <a href="#">Alert</a>
+            <a href="#">Empowerment</a>
+            <a href="#">Awareness</a>
+            <a href="#">Safeguard</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sub Footer -->
+
+<div class="sub-footer text">   
+    <a href="#">CopyRight &#169; 2024</a>    
+    <a href="#">All rights reserved</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Privacy Policy</a>
+</div>
+
+<script src="./auth/login.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

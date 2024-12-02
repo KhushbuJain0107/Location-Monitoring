@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar and Hamburger-->
+
+    <header>
+        <div class="containers"> 
+           <nav class="navbar links">
+
+              <div class="logo"><img src="./img/logo.png" alt="...loading"></div>
+
+              <ul class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="#features">Features</a>
+                <a href="safety.html">Safety Resources</a>
+                <a href="#contactus">Contact Us</a>
+                <div id="renderLoginState">
+
+                </div>
+                <!-- <a href="sign.html" target="_blank"><button class="secondary-btn">Sign In</button></a> -->
+                <a href="#"><button class="primary-btn">Alert</button></a>
+              </ul>
+              <div class="hamburger">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+              </div>
+           </nav>
+        </div>
+     </header> 
+
+    <!-- Header -->
+
+    <div class="carousel">
+      <div class="carousel-slides">
+          <div class="carousel-slide">
+              <img src="./img/image3.jpg" alt="Slide 1">
+          </div>
+          <div class="carousel-slide">
+              <img src="./img/safety.png" alt="Slide 2">
+          </div>
+          <div class="carousel-slide">
+              <img src="./img/image3.jpg" alt="Slide 3">
+          </div>
+          <div class="carousel-slide">
+              <img src="./img/safety.png" alt="Slide 4">
+          </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <button class="carousel-btn prev">&#10094;</button>
+      <button class="carousel-btn next">&#10095;</button>
+  </div>
+
+  <!-- Dots for indicators -->
+  <div class="carousel-dots">
+      <span class="carousel-dot"></span>
+      <span class="carousel-dot"></span>
+      <span class="carousel-dot"></span>
+      <span class="carousel-dot"></span>
+  </div>
+
+    <!-- About Us -->
+
+    <div class="aboutus">
+      <h1>ABOUT US</h1>
+      <div class="about">
+        <div class="aimg">
+          <img src="./img/shield.jpg" alt="loading..." />
+        </div>
+        <div class="atext">
+          <p>At WomiShield, we are dedicated to creating a safer world for women by harnessing the power of technology and innovation. Our platform provides tools and resources that prioritize personal safety, empowering women to navigate their environments confidently. With features like real-time location monitoring, alert generation, and predictive analytics, we aim to address safety challenges in today’s fast-paced world. Beyond technology, we offer self-defense guides, emergency contacts, and legal rights information to ensure comprehensive support for every user.
+            <br><br>
+            Our mission is to make safety accessible and proactive. By combining user-centric design with advanced technology, we deliver practical solutions tailored to everyday scenarios. At WomiShield, we believe that safety is a fundamental right, not a privilege. We strive to foster a community where women feel supported, informed, and secure. Together, we can create a safer, more inclusive world for everyone.
+            <br><br>
+            At WomiShield, we understand that safety goes beyond just technology—it’s about building trust and providing peace of mind. Our platform is designed to be user-friendly and inclusive, ensuring it caters to diverse needs. Whether it’s navigating through urban spaces, preparing for travel, or accessing vital resources in emergencies, we are here to empower women with confidence and support at every step. Together, we aim to redefine safety by blending innovation, awareness, and community collaboration.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="./img/logo.png" alt="">
+            <h5>WomiShield</h5>
+            <p>WomiShield is a dedicated platform for women's safety, empowering users with real-time tools and resources for secure and confident living. Join us in building a safer tomorrow.</p>
+            <div class="media">
+                <img src="./img/instagram.png" alt="loading...">
+                <img src="./img/facebook.png" alt="loading...">
+                <img src="./img/twitter.png" alt="loading...">
+                <img src="./img/linkedin.png" alt="loading...">
+            </div>
+        </div>
+        <div class="footer-links">
+        <div class="footer-link">
+            <p>Quick Navigate </p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="index.html">Features</a>
+            <a href="safety.html">Safety Resources</a>
+            <a href="index.html">Contact Us</a>
+        </div>
+
+        <div class="footer-link">
+            <p>Useful Links</p>
+            <a href="index.html">FAQs</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Emergency Alert</a>
+            <a href="sign.html">SignIn</a>
+        </div>
+
+        <div class="footer-link">
+            <p>Important Terms</p>
+            <a href="#">Safe Zone</a>
+            <a href="#">Alert</a>
+            <a href="#">Empowerment</a>
+            <a href="#">Awareness</a>
+            <a href="#">Safeguard</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sub Footer -->
+
+<div class="sub-footer text">   
+    <a href="#">CopyRight &#169; 2024</a>    
+    <a href="#">All rights reserved</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Privacy Policy</a>
+</div>
+
+<script src="script.js"></script>
+<script src="./services/contactService.js"></script>
+
+<!-- below script must be included in every page to dynamically update navbar based on the login state -->
+<script src="./services/utils.js"></script>
+</body>
+</html>

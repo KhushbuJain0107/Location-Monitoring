@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    
+    <!-- Navbar and Hamburger-->
+
+    <header>
+        <div class="containers"> 
+           <nav class="navbar links">
+              <div class="logo"><img src="./img/logo.png" alt="...loading"></div>
+
+              <ul class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="index.html">Features</a>
+                <a href="safety.html">Safety Resources</a>
+                <a href="index.html">Contact Us</a>
+                <a href="#"><img class="usericonlogo" src="./img/usericon.webp" alt="user icon"></a>
+                <a href="#"><button class="primary-btn">Alert</button></a>
+              </ul>
+              <div class="hamburger">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+              </div>
+           </nav>
+        </div>
+     </header> 
+
+
+     <!-- Dashboard page -->
+      <div class="dashboard-container">
+        <!-- side bar -->
+         <div class="links sidebar">
+            <a href="#">My Profile</a>
+            <a href="#">Settings</a>
+            <a id="logoutBtn" href="#">Logout</a>
+         </div>
+
+
+         <!-- dashboard info section -->
+          <div class="dashboard-info">
+            <div class="profile-banner">
+                <img class="user-icon-lg" src="./img/usericon.webp" alt="">
+            </div>
+            <div class="dashboard-info-heading-container">
+                <div class="dashboard-info-heading">
+                    <h3>Profile</h3>
+                    <p>Update your photo and personal details</p>
+                </div>
+                <div>
+                    <button id="saveProfile" class="save-btn">Save</button>
+                </div>
+            </div>
+
+            <div class="dashboard-info-container">
+                <div class="dashboard-info-item">
+                    <label for="updatedName">Name</label>
+                    <input type="text" id="updatedName" placeholder="Enter your name">
+                </div>
+                <div class="dashboard-info-item">
+                    <label for="updatedEmail">Email</label>
+                    <input id="updatedEmail" type="email" placeholder="Enter your email">
+                </div>
+                <div class="dashboard-info-item">
+                    <label for="updatedMobile">Mobile Number</label>
+                    <input type="text" id="updatedMobile" placeholder="Enter your phone number">
+                </div>
+        
+            </div>
+          </div>
+      </div>
+
+   <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="./img/logo.png" alt="">
+            <h5>WomiShield</h5>
+            <p>WomiShield is a dedicated platform for women's safety, empowering users with real-time tools and resources for secure and confident living. Join us in building a safer tomorrow.</p>
+            <div class="media">
+                <img src="./img/instagram.png" alt="loading...">
+                <img src="./img/facebook.png" alt="loading...">
+                <img src="./img/twitter.png" alt="loading...">
+                <img src="./img/linkedin.png" alt="loading...">
+            </div>
+        </div>
+        <div class="footer-links">
+        <div class="footer-link">
+            <p>Quick Navigate </p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="index.html">Features</a>
+            <a href="safety.html">Safety Resources</a>
+            <a href="index.html">Contact Us</a>
+        </div>
+
+        <div class="footer-link">
+            <p>Useful Links</p>
+            <a href="index.html">FAQs</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Emergency Alert</a>
+            <a href="sign.html">SignIn</a>
+        </div>
+
+        <div class="footer-link">
+            <p>Important Terms</p>
+            <a href="#">Safe Zone</a>
+            <a href="#">Alert</a>
+            <a href="#">Empowerment</a>
+            <a href="#">Awareness</a>
+            <a href="#">Safeguard</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sub Footer -->
+
+<div class="sub-footer text">   
+    <a href="#">CopyRight &#169; 2024</a>    
+    <a href="#">All rights reserved</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Privacy Policy</a>
+</div>
+
+
+<script src="./services/dashboard.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
